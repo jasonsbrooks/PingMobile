@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- start: Meta -->
+	<meta charset="utf-8">
+	<title>Ping Mobile | About Us</title> 
+	<meta name="description" content="Ping Mobile Mobile Advertising"/>
+	<meta name="keywords" content="ping mobile, ping, mobile advertising, mobile, ads" />
+	<meta name="author" content="Jason Brooks from Yale University"/>
+	<!-- end: Meta -->
+	
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- end: Mobile Specific -->
+	
+	<!-- start: Facebook Open Graph -->
+	<meta property="og:title" content=""/>
+	<meta property="og:description" content=""/>
+	<meta property="og:type" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:image" content=""/>
+	<!-- end: Facebook Open Graph -->
+
+    <!-- start: CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/ping.css" rel="stylesheet">
+	<link href="css/aboutpage.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+	<!-- end: CSS -->
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+	
+	<!--start: Header -->
+	<header>
+		
+		<!--start: Container -->
+		<div class="container">
+			
+			<!--start: Row -->
+			<div class="row">
+					
+				<!--start: Logo -->
+				<div class="logo span3">
+						
+					<a class="brand" href="index.html"><img src="img/arilogo.png" alt="Logo"></a>
+						
+				</div>
+				<!--end: Logo -->
+					
+				<!--start: Navigation -->
+				<div class="span9">
+					
+					<div class="navbar navbar-inverse">
+			    		<div class="navbar-inner">
+			          		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			            		<span class="icon-bar"></span>
+			            		<span class="icon-bar"></span>
+			            		<span class="icon-bar"></span>
+			          		</a>
+			          		<div class="nav-collapse collapse">
+			            		<ul class="nav">
+			              			<li><a href="index.html">Home</a></li>
+			              			<li class="active"><a href="about.html">About</a></li>
+			              			<li><a href="team.html">Team</a></li>
+			              			<li><a href="blog.html">Blog</a></li>
+			              			<li><a href="contact.html">Contact</a></li>
+			              			<li><a href="#myModal" data-toggle="modal">Sign In</a></li>
+			              			</li>
+			            		</ul>
+			          		</div>
+			        	</div>
+			      	</div>
+					
+				</div>	
+				<!--end: Navigation -->
+					
+			</div>
+			<!--end: Row -->
+			
+		</div>
+		<!--end: Container-->			
+			
+	</header>
+	<!--end: Header-->
+	
+	<!--SIGN IN MODAL-->
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  	<div class="modal-header">
+    	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    	<h3 id="myModalLabel">Log in to Ping</h3>
+  	</div>
+  	<div class="modal-body">
+    	 <form action="/login" method="POST" autocomplete="off"><div style="display:none"><input type="hidden" name="TOKENVALHERE" value="TOKEN"></div>
+         <fieldset>
+            <input type="text" placeholder="Username or email" name="username" maxlength="30" id="id_username"></br>
+            <input type="password" placeholder="Password" name="password" id="id_password"></br></br>
+            <input type="submit" value="Log in" class="btn btn-primary">
+        </fieldset>
+    </br>
+         <a class = "forgotpw" href="/accounts/password/reset/"><span>Forgot password?</span></a>
+     </form>
+    	   	</div>
+  	
+	</div>
+
+
+	<div>
+	
+	<!-- start: Page Title -->
+	<div id="page-title">
+
+		<div id="page-title-inner">
+
+			<!-- start: Container -->
+			<div class="container">
+
+				<h2><i class="ico-stats ico-white"></i>Welcome to Ping Mobile</h2>
+
+			</div>
+			<!-- end: Container  -->
+
+		</div>	
+
+	</div>
+	<!-- end: Page Title -->
+	
+	<!--WISTIA VIDEO -->
+	<div class="container">
+		<div class="span4">
+			<h1>Mobile Advertising, Done Right</h1>
+			<br></br>
+			<p class="page-text">Ping Mobile is the world's easiest mobile advertising solution.  This revolutionary service provides the means for businesses to reach clients of all types.  By selecting lists of people that actually enjoy their service, businesses can allow the public to find great deals that make their lives easier.  Plus newspapers can get involved too, recruiting their advertisers for this revoluteionary service.</p>
+			<br />
+			
+
+			<a href="#signup-modal" data-toggle="modal" class="btn btn-primary btn-large">Sign Up Now!</a>
+
+		</div>
+		<div class="span5">
+		<iframe id="wistia" class="wistia_embed" name="wistia_embed" src="http://fast.wistia.com/embed/iframe/df203e9a0b?version=v1&videoWidth=580&videoHeight=326&controlsVisibleOnLoad=true&playerColor=aae3d8&canonicalUrl=http%3A%2F%2Fwistia.com%2Fblog%2Ftag%2Fvideo-testimonials%2F&canonicalTitle=video%20testimonials%20-%20Wistia%20at%20Work&plugin%5Bsocialbar%5D%5Bversion%5D=v1&plugin%5Bsocialbar%5D%5Bbuttons%5D=embed-email-twitter-googlePlus-facebook&plugin%5Bsocialbar%5D%5Blogo%5D=true&plugin%5Bsocialbar%5D%5BtweetText%5D=&plugin%5Bsocialbar%5D%5BbadgeUrl%5D=http%3A%2F%2Fwistia.com&plugin%5Bsocialbar%5D%5BbadgeImage%5D=http%3A%2F%2Fstatic.wistia.com%2Fimages%2Fbadges%2Fwistia_100x96_black.png" allowtransparency="true" frameborder="0" scrolling="no" width="480" height="320"></iframe>
+		</div>
+	</div>
+	<!-- Wistia video end -->
+	<br /><br /><hr /><br />
+	
+	<!--help articles-->
+	<div class="container">
+		<div class="row">
+		<div class="span3">
+			<img src="img/jason.jpg"></img>
+		</div>
+		<div class="span6">
+			<h2>This Is The Title Of The First Step</h2><br />
+			<p class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel turpis eget odio fermentum elementum. Vestibulum id enim nec odio bibendum dictum. Integer laoreet hendrerit mauris. Sed sagittis, leo eu rhoncus aliquet, nulla urna euismod elit, ac sagittis mauris ipsum aliquet massa.</p>
+
+			<p class="page-text">Pellentesque a tincidunt dolor. Aenean ante massa, tristique ultricies suscipit ac, laoreet a mi. In placerat tincidunt dui, faucibus lobortis mauris dignissim id. Nam id nisl felis. Cras quis nibh quis turpis sodales malesuada eget vitae mi. Aenean ut dapibus augue. Cras sapien lacus, volutpat id ullamcorper a, feugiat in turpis. Quisque ut odio odio, quis rhoncus quam. Morbi ullamcorper facilisis elit vitae bibendum. Morbi fringilla lectus a lectus luctus sit amet vehicula sem interdum. Aliquam quis metus tortor. Proin vel urna libero. Nam vestibulum aliquet quam, et vestibulum velit pulvinar vel. Suspendisse potenti.</p>
+		</div>
+		</div>
+		<br /><hr /><br />
+		<div class="row">
+		<div class="span6">
+		<h2>This Is The Title Of The Second Step</h2><br />
+		<p class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel turpis eget odio fermentum elementum. Vestibulum id enim nec odio bibendum dictum. Integer laoreet hendrerit mauris. Sed sagittis, leo eu rhoncus aliquet, nulla urna euismod elit, ac sagittis mauris ipsum aliquet massa.</p>
+
+		<p class="page-text">Pellentesque a tincidunt dolor. Aenean ante massa, tristique ultricies suscipit ac, laoreet a mi. In placerat tincidunt dui, faucibus lobortis mauris dignissim id. Nam id nisl felis. Cras quis nibh quis turpis sodales malesuada eget vitae mi. Aenean ut dapibus augue. Cras sapien lacus, volutpat id ullamcorper a, feugiat in turpis. Quisque ut odio odio, quis rhoncus quam. Morbi ullamcorper facilisis elit vitae bibendum. Morbi fringilla lectus a lectus luctus sit amet vehicula sem interdum. Aliquam quis metus tortor. Proin vel urna libero. Nam vestibulum aliquet quam, et vestibulum velit pulvinar vel. Suspendisse potenti.</p>
+		</div>
+		<div class="span3">
+			<img src="img/jason.jpg"></img>
+		</div>
+		
+		</div>
+		<br /><hr /><br />
+		<div class="row">
+		<div class="span3">
+			<img src="img/jason.jpg"></img>
+		</div>
+		<div class="span6">
+			<h2>This Is The Title Of The Third Step</h2><br />
+			<p class="page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel turpis eget odio fermentum elementum. Vestibulum id enim nec odio bibendum dictum. Integer laoreet hendrerit mauris. Sed sagittis, leo eu rhoncus aliquet, nulla urna euismod elit, ac sagittis mauris ipsum aliquet massa.</p>
+
+			<p class="page-text">Pellentesque a tincidunt dolor. Aenean ante massa, tristique ultricies suscipit ac, laoreet a mi. In placerat tincidunt dui, faucibus lobortis mauris dignissim id. Nam id nisl felis. Cras quis nibh quis turpis sodales malesuada eget vitae mi. Aenean ut dapibus augue. Cras sapien lacus, volutpat id ullamcorper a, feugiat in turpis. Quisque ut odio odio, quis rhoncus quam. Morbi ullamcorper facilisis elit vitae bibendum. Morbi fringilla lectus a lectus luctus sit amet vehicula sem interdum. Aliquam quis metus tortor. Proin vel urna libero. Nam vestibulum aliquet quam, et vestibulum velit pulvinar vel. Suspendisse potenti.</p>
+		</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="span3 offset4">
+				<a href="#signup-modal" data-toggle="modal" class="btn btn-primary btn-large">Sign Up Now!</a>
+		</div>
+	</div>
+	</div>
+
+
+	<!-- start: Copyright -->
+	<div id="copyright">
+	
+		<!-- start: Container -->
+		<div class="container">
+		
+			<div class="sixteen columns">
+				<p>
+					&copy; 2012, ping mobile. </p>
+					<p>Designed by ping mobile in New Haven, Connecticut. 
+				</p>
+			</div>
+	
+		</div>
+		<!-- end: Container  -->
+		
+	</div>	
+	<!-- end: Copyright -->
+
+
+<!-- Sign-up Form -->
+
+<script type="text/javascript">
+		function changeClient()
+		{
+			document.getElementById('clientform').style.display="block";
+			document.getElementById('signup-modal').style.height='500px';
+			document.getElementById('newspaperform').style.display="none";
+			document.getElementById('dealerform').style.display="none";
+		}
+
+		function changeNewspaper()
+		{
+			document.getElementById('newspaperform').style.display="block";
+			document.getElementById('signup-modal').style.height='500px';
+			document.getElementById('clientform').style.display="none";
+			document.getElementById('dealerform').style.display="none";
+		}
+
+		function changeDealer()
+		{
+			document.getElementById('dealerform').style.display="block";
+			document.getElementById('signup-modal').style.height='500px';
+			document.getElementById('newspaperform').style.display="none";
+			document.getElementById('clientform').style.display="none";
+		}
+	</script>
+
+
+
+    
+    <div id="signup-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  	<div class="modal-header">
+    	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    	<h3 id="myModalLabel">Start Using Ping</h3>
+  	</div>
+  	<div class="modal-body">
+    	<div class="container" id = "start-using-container">
+    		&#160;&#160;&#160;&#160;&#160;
+    	<button class="btn btn-primary btn-large sign-up-body" id="client" onclick="changeClient()">I want to use Ping to talk with my customers.</button>
+    	&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    	<button class="btn btn-primary btn-large sign-up-body" id="newspaper" onclick="changeNewspaper()">I'm a Newspaper.</button>
+    	&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    	<button class="btn btn-primary btn-large sign-up-body" id="dealer" onclick="changeDealer()">I want to help other businesses use Ping.</button>
+    	
+
+    	<div id="clientform" style="display:none;">
+    		<br></br>
+    			<p>Over 99% of text messages get opened, making text messages one of the most powerful tools of communication.  Ping gives you a simple and easay way to stay connected with your existing customers and attract new ones using this powerful tool.  It costs nothing to get started.  Try it out, and watch your business grow.</p>
+
+    	 		<form id="contact" method="post" action="">
+				<fieldset>    
+					 
+					<label for="name">Name</label>
+					<input type="text" name="name">
+					 
+					<label for="email">E-mail</label>
+					<input type="email" name="email">
+					 
+					<label for="phone">Phone</label>
+					<input type="text" name="phone">
+					 
+					<label for="website">Website</label>
+					<input type="url" name="url">
+					 
+					<label for="message">Question/Comment</label>
+					<textarea name="message"></textarea>
+					 
+					<input type="submit" name="submit" id="submit" value="Send Message" />
+					 
+				</fieldset>
+				</form>
+
+    	</div>
+
+    	<div id="newspaperform" style="display:none;">
+    			<br></br>
+    			<p>Papers around the country and businesses in your community are using Ping respectively to reward their readers with great deals, and connect with existing and potential customers.  Ping is an easy-to-use tool that's revolutionizing the way businesses interact with their customers.  As a Newspaper, you can grab a giant share of this new advertising stream.  It's super easy to use and costs nothing.  Sign up below to get started!</p>
+
+    	 		<form id="contact" method="post" action="">
+				<fieldset>    
+					 
+					<label for="name">Name</label>
+					<input type="text" name="name">
+					 
+					<label for="email">E-mail</label>
+					<input type="email" name="email">
+					 
+					<label for="phone">Phone</label>
+					<input type="text" name="phone">
+					 
+					<label for="website">Website</label>
+					<input type="url" name="url">
+					 
+					<label for="message">Question/Comment</label>
+					<textarea name="message"></textarea>
+					 
+					<input type="submit" name="submit" id="submit" value="Send Message" />
+					 
+				</fieldset>
+				</form>
+    	</div>
+
+    	<div id="dealerform" style="display:none;">
+    			<br></br>
+    			<p>Ping is an easy-to-use tool that lets businesses interact creatively with existing and potential customers using text messages.  Ping costs nothing to install and can instantly add to a business' top and bottom line.  Introduce Ping to friends or clients with consumer-facing businesses and earn their appreciation.  Plus, we'll share any profit that comes our way.</p>
+
+    	 		<form id="contact" method="post" action="">
+				<fieldset>    
+					 
+					<label for="name">Name</label>
+					<input type="text" name="name">
+					 
+					<label for="email">E-mail</label>
+					<input type="email" name="email">
+					 
+					<label for="phone">Phone</label>
+					<input type="text" name="phone">
+					 
+					<label for="website">Website</label>
+					<input type="url" name="url">
+					 
+					<label for="message">Question/Comment</label>
+					<textarea name="message"></textarea>
+					 
+					<input type="submit" name="submit" id="submit" value="Send Message" />
+					 
+				</fieldset>
+				</form>
+    	</div>
+    		
+    	 
+   		</div>
+  	
+		</div>
+	</div>
+
+<!--end signup form-->
+
+
+<!-- start: Java Script -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery-1.8.2.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/jquery.cslider.js"></script>
+<script src="js/slider.js"></script>
+<script def src="js/custom.js"></script>
+<!-- end: Java Script -->
+
+</body>
+</html>	
